@@ -1,0 +1,23 @@
+{
+  "name": "simple-discord-tts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bot": "tsx src/bot.ts", 
+    "regcmd": "tsx src/scripts/registerCommands.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.17.0",
+    "discord.js": "^14.15.2",
+    "dotenv": "^16.4.5",
+    "libsodium-wrappers": "^0.7.13"
+  },
+  "devDependencies": {
+    "tsx": "^4.11.0",
+    "typescript": "^5.4.5"
+  }
+}
